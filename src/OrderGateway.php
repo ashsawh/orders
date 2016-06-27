@@ -10,11 +10,13 @@ class OrderGateway implements Contracts\OrderInterface {
         public function addItem(Contracts\ItemInterface $item) 
         {
             $this->item = $item;
+	    return $this;
         }
         
         public function addPayment(Contracts\PaymentInterface $payment) 
         {
             $this->payment = $payment;
+	    return $this;
         }
 
         private function hasPayment()
