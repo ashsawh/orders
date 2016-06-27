@@ -1,0 +1,9 @@
+{
+	"autoload": {
+		"classmap": [
+			"src/",
+			"src/Exceptions/",
+			"lib/Contracts"
+		]
+	}
+}
